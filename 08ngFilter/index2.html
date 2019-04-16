@@ -7,15 +7,12 @@
 </head>
 <body>
 <div ng-app="myApp">
-    <!-- There is not a root scope-->
-    <div ng-controller="FirstCtrl">
-        <input type="text" ng-model="data.message">
-        <h1>{{data.message + " world"}}</h1>
-        <h1>nothing: {{reversedMessage()}}</h1>
-    </div>
-    <div ng-controller="SecondCtrl">
-        <input type="text" ng-model="data.message">
-        <h1>{{reversedMessage()}}</h1>
+    <div ng-controller="AvengersCtrl">
+        <input type="text" ng-model="search.name">
+        <table ng-repeat="actor in avengers.cast | filter:search | orderBy : 'character' | limitTo: 10">
+            <td>{{actor.name}}</td>
+            <td>{{actor.character}}</td>
+        </table>
     </div>
 </div>
 
