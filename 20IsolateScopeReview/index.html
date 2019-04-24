@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>AngularJS Tutorial</title>
+<link rel="stylesheet" href="../vendor/foundation/foundation.min.css">
+
+</head>
+<body>
+<div ng-app="phoneApp">
+    <div ng-controller="AppCtrl">
+        <phone number="555-4321" network="network" make-call="leaveVoicemail(number, message)"></phone>
+        <phone number="666-7890" network="network" make-call="leaveVoicemail(number, message)"></phone>
+        <phone number="110" network="network" make-call="leaveVoicemail(number, message)"></phone>
+    </div>
+</div>
+
+<script type="text/javascript" src="../vendor/angularjs/angular.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
