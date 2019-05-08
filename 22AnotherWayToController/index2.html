@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>AngularJS Tutorial</title>
+<link rel="stylesheet" href="../vendor/foundation/foundation.min.css">
+
+</head>
+<body>
+<div ng-app="phoneApp">
+    <div ng-controller="AppCtrl">
+            <!-- ng-click 里面的AppCtrl 和 外层 ng-controller 里面的 AppCtrl 冗余重复了！ -->
+            <div class="button" ng-click="AppCtrl.sayHi()">Click me!</div>
+
+    </div>
+</div>
+
+<script type="text/javascript" src="../vendor/angularjs/angular.js"></script>
+<script type="text/javascript" src="main2.js"></script>
+</body>
+</html>
