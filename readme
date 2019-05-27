@@ -1,4 +1,6 @@
 
+Fundamental AngularJS tutorials/Samples
+
 一个 *.html 里面的 ng-controller 对应一个 *.js 里面的函数
 
 ===
@@ -7,7 +9,9 @@ Question:
 How to Testing in AngularJS, sample folder: 07Testing
 There is not panel class in foundation.min.css.
 
-transclude doesn't works well, sample folder: 21TransclusionBasics
+transclude doesn't works the same, it works to replace not include, sample folder: 21TransclusionBasics
+
+27templateUrl/index2.html need webService
 ===
 
 Alt + Enter to create src file
