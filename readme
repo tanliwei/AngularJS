@@ -11,8 +11,10 @@ There is not panel class in foundation.min.css.
 
 transclude doesn't works the same, it works to replace not include, sample folder: 21TransclusionBasics
 
-27templateUrl/index2.html need webService
+27templateUrl/index2.html need webServer
 ===
+
+AngularJS下载 https://www.angularjs.net.cn/download/
 
 Alt + Enter to create src file
 
